@@ -1,0 +1,161 @@
+body{
+     
+    background-color:rgb(204, 64, 64);
+    color: white ;
+    text-align: center;
+    font-family: 'Sofia';font-size: 22px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#top{
+  color: antiquewhite;
+  text-align: center;
+  
+}
+.content{
+    text-align: center;
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+   
+}
+/*------calculeter-------*/
+body{
+    background-color:black;
+
+}
+/*---------style h----------*/
+.adr{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+.form1{
+    align-items: center;
+    margin: 90px;
+}
+/*------display numer from right----*/
+.teal{
+    width: 270px;
+    height: 100px;
+    text-align: right;
+    border: 2px solid rgb(67, 175, 194);
+    border-radius:20px; 
+    font-size: 3em;
+}
+.teal:focus{
+    outline: none;
+}
+/*-----------------style btn---------*/
+.numcl{
+    width: 70px;
+    height: 70px;
+    border-radius:50%; 
+    background-color: rgb(92, 89, 89);
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    color: white;
+
+}
+
+.numcl:focus {
+    outline: none;
+}
+
+.asscl{ 
+    width: 70px;
+    height: 70px;
+    border-radius:50%; 
+    background-color:rgb(67, 175, 194);
+    border: none;
+    color: white;
+
+}
+.asscl:focus {
+    outline: none;
+
+}
+.zero{
+     width: 140px;
+    height: 70px;
+    border-radius:50%; 
+    background-color: rgb(92, 89, 89);
+    border: none;
+    color: white;
+
+}
+#zero1:hover{
+     background-color: rgb(44, 139, 156);
+    color:white;
+
+}
+#zero1:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+    
+}
+.zero:focus{
+    outline: none;
+}
+.numclc{
+    width: 140px;
+    height: 70px;
+    border-radius:50%; 
+    background-color: rgb(92, 89, 89);
+    margin-top: 10px;
+    border: none;
+    color: white;
+
+}
+.numclc:hover{
+    background-color: rgb(44, 139, 156);
+   color:white;
+
+}
+.numclc:active{
+   background-color: #3e8e41;
+   box-shadow: 0 0px #666;
+   transform: translateY(4px);
+   
+}
+.numclc:focus{
+    outline: none;
+}
+
+}
+
+.numclc:focus{
+    outline: none;
+}
+/*-------------btn hover---------*/
+#hov:hover{
+    background-color: rgb(44, 139, 156);
+    color:white;
+
+}
+#hov:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+    
+
+}
+/*------adr1----------*/
+.adr1{ color: rgb(57, 79, 138);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1em;
+}
+

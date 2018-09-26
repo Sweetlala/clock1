@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>java clock</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="img/time1.mp4" type="video/mp4">
+    </video>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <header id="top">
+                    <h3> OLA's CLOCK</h3>
+                </header>
+                <main class="content">
+                    <div id="clock">
+
+                    </div>
+            </div> 
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+         <h1 class="text-center adr"></h1>
+         </div>
+        </div>
+      </section>
+      <section class="cotainer-fluid">
+         <div class="row">
+             <article class="col-md-4"></article>
+             <article class="col-md-4">
+      <form name="calcform" class="form1">
+          <input type="text" name="text1" class="teal"><br>
+          <!-----first line------>
+          <input type="button" name="btn9" value=9 onclick="displaynum(btn9.value)" class="numcl" id="hov">
+          <input type="button" name="btn8" value=8 onclick="displaynum(btn8.value)"class="numcl"id="hov">
+          <input type="button" name="btn7" value=7 onclick="displaynum(btn7.value)"class="numcl"id="hov">
+          <input type="button" name=addbtn value=+ onclick="displaynum(addbtn.value)"class="asscl"><br>
+           <!-----second line------>
+          <input type="button" name="btn6" value=6 onclick="displaynum(btn6.value)"class="numcl"id="hov">
+          <input type="button" name="btn5" value=5 onclick="displaynum(btn5.value)"class="numcl"id="hov">
+          <input type="button" name="btn4" value=4 onclick="displaynum(btn4.value)"class="numcl"id="hov">
+          <input type="button" name=subbtn value=- onclick="displaynum(subbtn.value)"class="asscl"><br>
+           <!-----third line------>
+          <input type="button" name="btn3" value=3 onclick="displaynum(btn3.value)"class="numcl"id="hov">
+          <input type="button" name="btn2" value=2 onclick="displaynum(btn2.value)"class="numcl"id="hov">
+          <input type="button" name="btn1" value=1 onclick="displaynum(btn1.value)"class="numcl"id="hov">
+          <input type="button" name=btnmul value=* onclick="displaynum(btnmul.value)"class="asscl"><br>
+           <!-----forth line------>
+          <input type="button" name="btn0" value=0 onclick="displaynum(btn0.value)" class="zero" id="zero1">
+          <input type="button" name=potbtn value=. onclick="displaynum(potbtn.value)" class="numcl"id="hov">
+          <input type="button" name=eqlbtn value==  onclick="text1.value=eval(text1.value)" class="asscl">
+      
+      <article class="col-md-4">
+          <input type="button" name=reserbtn value=C onclick="myFunction()" class="numclc">
+          <input type="button" name=eqlbtn value=<- onclick="text1.value=eval(text1.value)" class="numcl">
+      
+         <input type="button" name=divbtn value=/ onclick="displaynum(divbtn.value)"class="asscl">
+        </article>
+        </form>
+       </article>
+       <article class="col-md-4"></article>
+      </div>
+      </div> 
+      
+      </section>
+      
+     <!-- <div class="container-fluid">
+              <div class="row">
+                  
+                  <div class="col">
+               <h1 class="text-center adr1">Med by LOLY</h1>
+               </div>
+            </div>
+              </div>
+            </section>-->
+    </main>
+   
+
+
+
+    <script src="app.js"></script>
+</body>
+<footer>
+        <p>&; 2018 OLA TALEB</p>
+    </footer>
+
+
+</html>
